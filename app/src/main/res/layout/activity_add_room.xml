@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRoomActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/room_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/room_tv"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                app:contentPaddingBottom="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                android:paddingBottom="35dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Room Image*"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/room_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/input_back"
+                        android:padding="2dp"
+                        android:src="@drawable/upload_image"
+                        android:scaleType="fitXY"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/room_no_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:layout_marginTop="10dp"
+                        android:hint="Room Number*"
+                        app:hintTextColor="@color/half_black"
+                        app:boxStrokeErrorColor="@color/half_black"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/room_no"
+                            android:inputType="number"
+                            android:textSize="16sp"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:focusableInTouchMode="true"
+                            android:textColor="@color/half_black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/room_desc_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:layout_marginTop="10dp"
+                        android:hint="Description*"
+                        app:hintTextColor="@color/half_black"
+                        app:boxStrokeErrorColor="@color/half_black"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/room_description"
+                            android:inputType="textCapSentences"
+                            android:textSize="16sp"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:focusableInTouchMode="true"
+                            android:textColor="@color/half_black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/room_capacity_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:layout_marginTop="10dp"
+                        android:hint="Capacity*"
+                        app:hintTextColor="@color/half_black"
+                        app:boxStrokeErrorColor="@color/half_black"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/room_capacity"
+                            android:inputType="number"
+                            android:textSize="16sp"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:focusableInTouchMode="true"
+                            android:textColor="@color/half_black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/room_price_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_10"
+                        android:layout_marginEnd="@dimen/padding_10"
+                        android:layout_marginTop="10dp"
+                        android:hint="Price*"
+                        app:hintTextColor="@color/half_black"
+                        app:boxStrokeErrorColor="@color/half_black"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/room_price"
+                            android:inputType="number"
+                            android:textSize="16sp"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:focusableInTouchMode="true"
+                            android:textColor="@color/half_black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AC"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <RadioGroup
+                            android:id="@+id/ac_radio_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/ac_yes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="selectAC"
+                                android:layout_marginEnd="20dp"
+                                android:text="Yes"/>
+
+                            <RadioButton
+                                android:id="@+id/ac_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="selectAC"
+                                android:text="No"/>
+
+                        </RadioGroup>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wash Room"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <RadioGroup
+                            android:id="@+id/wash_room_radio_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/wash_room_yes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="selectWashRoom"
+                                android:layout_marginEnd="20dp"
+                                android:text="Yes"/>
+
+                            <RadioButton
+                                android:id="@+id/wash_room_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="selectWashRoom"
+                                android:text="No"/>
+
+                        </RadioGroup>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="13dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="@string/submit"
+        android:clickable="false"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:background="@drawable/button_bg"/>
+
+</RelativeLayout>

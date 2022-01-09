@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">VTABD</string>
+
+    <string name="location_details_text_demo">
+        \n\nIn spite of the recent surge in e-commerce, brick-and-mortar retail, specifically in the form of large-scale shopping malls, is still the dominant venue for consumer purchases in the developed world. The construction of mass-scale shopping malls has also experienced tremendous growth in newly industrialized countries such as China. This research provides a rigorous, yet practical, framework to understand and evaluate why retail stores join a shopping mall and how their decisions affect mall revenue. The model can be extended and applied to a number of settings where a decision maker must choose among alternative sites to construct a market, for example, for transportation hubs such as airports or train stations.
+        \n\nIn spite of the recent surge in e-commerce, brick-and-mortar retail, specifically in the form of large-scale shopping malls, is still the dominant venue for consumer purchases in the developed world. The construction of mass-scale shopping malls has also experienced tremendous growth in newly industrialized countries such as China. This research provides a rigorous, yet practical, framework to understand and evaluate why retail stores join a shopping mall and how their decisions affect mall revenue. The model can be extended and applied to a number of settings where a decision maker must choose among alternative sites to construct a market, for example, for transportation hubs such as airports or train stations.
+        \n\nIn spite of the recent surge in e-commerce, brick-and-mortar retail, specifically in the form of large-scale shopping malls, is still the dominant venue for consumer purchases in the developed world. The construction of mass-scale shopping malls has also experienced tremendous growth in newly industrialized countries such as China. This research provides a rigorous, yet practical, framework to understand and evaluate why retail stores join a shopping mall and how their decisions affect mall revenue. The model can be extended and applied to a number of settings where a decision maker must choose among alternative sites to construct a market, for example, for transportation hubs such as airports or train stations.
+    </string>
+
+    <string name="selected_item">Selected item:</string>
+    <string name="large_text">After I\'ve made my Encool generator some guy have asked me why won\'t Encooler Russificate what he types. Like turn English characters into Russian symbols. The answer was obvious, cause that\'s just not the way that I wanted my Encooler to roll. Encooler was about making text look cool using hell more symbols than just East Slavic (Russian, Ukrainian, Rusyn, and Belarusian). But I thought that if some people look for this kind of generator - why not make one? So I bring you here one more tool for text Encooling. A tool for Slavication of your texts, names and messages.
+    \n\nAfter I\'ve made my Encool generator some guy have asked me why won\'t Encooler Russificate what he types. Like turn English characters into Russian symbols. The answer was obvious, cause that\'s just not the way that I wanted my Encooler to roll. Encooler was about making text look cool using hell more symbols than just East Slavic (Russian, Ukrainian, Rusyn, and Belarusian). But I thought that if some people look for this kind of generator - why not make one? So I bring you here one more tool for text Encooling. A tool for Slavication of your texts, names and messages.
+    \n\nAfter I\'ve made my Encool generator some guy have asked me why won\'t Encooler Russificate what he types. Like turn English characters into Russian symbols. The answer was obvious, cause that\'s just not the way that I wanted my Encooler to roll. Encooler was about making text look cool using hell more symbols than just East Slavic (Russian, Ukrainian, Rusyn, and Belarusian). But I thought that if some people look for this kind of generator - why not make one? So I bring you here one more tool for text Encooling. A tool for Slavication of your texts, names and messages.
+    \n\n</string>
+
+    <string name="beil_biography">"Christian Charles Philip Bale (born 30 January 1974) is an English-American actor. He is known for his intense method acting style, often transforming his body drastically for his roles. The recipient of many awards, including an Academy Award and a Golden Globe, he was featured in the Time 100 list of 2011.
+        Born in Haverfordwest, Wales, to English parents, Bale had his first starring role at age 13 in Steven Spielberg\'s war film Empire of the Sun (1987). Following a decade of leading and supporting roles, including in Little Women (1994), he gained wider recognition for portraying the serial killer Patrick Bateman in American Psycho (2000).
+        In 2004, he lost 63 pounds (28.5 kg) for his role in the psychological thriller The Machinist (2004). Within six months he gained 100 lb (45 kg) to star as Batman in Christopher Nolan\'s superhero film Batman Begins (2005). He later reprised his role in subsequent installments of the Dark Knight Trilogy, which ranks as the 8th highest-grossing film series. Bale continued to take on starring roles in Nolan's period drama The Prestige (2006), the western 3:10 to Yuma (2007), the science fiction film Terminator Salvation (2009), and the crime drama Public Enemies (2009).
+        He won the Academy Award for Best Supporting Actor for his portrayal of Dicky Eklund in the David O. Russell-directed biographical film The Fighter (2010). This acclaim continued with his Oscar-nominated roles in Russell's black comedy American Hustle (2013) and in Adam McKay's financial satire The Big Short (2015)."
+    </string>
+    <string name="go_demo_2">Demo 2</string>
+    <string name="demo_1">Demo 1</string>
+    <string name="heath_ledger">Heath Ledger</string>
+    <string name="heath_andrew_ledger_full_txt">Heath Andrew Ledger</string>
+
+    <string name="ledger_biography">"Heath Andrew Ledger[a] (4 April 1979 – 22 January 2008) was an Australian actor and music video director. After performing roles in several Australian television and film productions during the 1990s, Ledger left for the United States in 1998 to further develop his film career. His work comprised nineteen films, including 10 Things I Hate About You (1999), The Patriot (2000), A Knight's Tale (2001), Monster's Ball (2001), Lords of Dogtown (2005), Brokeback Mountain (2005), Casanova (2005), The Dark Knight (2008), and The Imaginarium of Doctor Parnassus (2009), the latter two being posthumous releases. He also produced and directed music videos and aspired to be a film director."</string>
+    <string name="christian_charles_n_philip_bale">Christian Charles\nPhilip Bale</string>
+    <string name="christian_bale">Christian Bale</string>
+
+    <string name="dateFormat" translatable="false">EE, dd MMM</string>
+    <string name="timeFormat" translatable="false">EE, dd MMM HH:mm</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="toast_click">Click %d</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hotel_name">Hotel Name</string>
+    <string name="contact_no">Contact No</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="your_travel_assistant">Your travel Assistant</string>
+    <string name="login">login</string>
+    <string name="registration">Free Registration</string>
+    <string name="login_phone_pin">Give your phone &amp; pin for login</string>
+    <string name="phone">Phone Number</string>
+    <string name="pin">PIN</string>
+    <string name="forget_pin">Forget PIN?</string>
+    <string name="next">Next</string>
+    <string name="register">Register</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="ok">Ok</string>
+    <string name="visit">Visit</string>
+    <string name="list_of_rooms">List of Rooms</string>
+    <string name="home">Home</string>
+    <string name="myprofile">My Profile</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="cart">Cart</string>
+    <string name="logout">Logout</string>
+    <string name="aboutapp">About App</string>
+    <string name="feedback">Feedback</string>
+    <string name="helpcentre">Help Center</string>
+    <string name="domain">Domain</string>
+    <string name="about_activity_title">About Us</string>
+    <string name="website">rkjsgb.com</string>
+    <string name="licence">Licence</string>
+    <string name="licencedesc">Lorem Input</string>
+    <string name="changelog">Change Log</string>
+    <string name="changes">Lorem input</string>
+    <string name="about_activity_description">z;lsvnfk ;akjs aurghfuhjvh ajdfgkjs agf</string>
+    <string name="create_place">Create Place</string>
+    <string name="create_city">Create City</string>
+    <string name="create_new_place">Create New Place</string>
+    <string name="orders">Orders</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="desc">NOTE: The sense of Latin contentus presumably developed from the more literal meaning restrained, held in. This is still somewhat apparent in early uses, as in this passage from Plautuss Poenulus:contentiores mage erunt atque avidi minus, / quom scibunt, ut Veneri adierit leno manum. I will make the other gods and goddesses more restrained (contentiores) and less greedy when they know how the procurer played a trick on Venus.</string>
+
+    <string-array name="type">
+        <item>Blog</item>
+        <item>Districts</item>
+        <item>Locations</item>
+        <item>Hotel</item>
+        <item>Transport</item>
+        <item>Guide</item>
+    </string-array>
+
+    <string-array name="district">
+        <item>Barisal</item>
+        <item>Barguna</item>
+        <item>Bhola</item>
+        <item>Bandarban</item>
+        <item>Brahmanbari</item>
+        <item>Bagerhat</item>
+        <item>Bogra</item>
+        <item>Chuadanga</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Cox\'s Bazar</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gazipur</item>
+        <item>Gaibandha</item>
+        <item>Gopalganj</item>
+        <item>Gopalganj</item>
+        <item>Jhalokati</item>
+        <item>Jessore</item>
+        <item>Jamalpur</item>
+        <item>Jhenaidah</item>
+        <item>Jaipurhat</item>
+        <item>Khagrachari</item>
+        <item>Kishoreganj</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Lakshmipur</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Noakhali</item>
+        <item>Nilphamari</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Nawabganj</item>
+        <item>Narail</item>
+        <item>Netrokona</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Patuakhali</item>
+        <item>Panchagarh</item>
+        <item>Pirojpur</item>
+        <item>Pabna</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Shariatpur</item>
+        <item>Satkhira</item>
+        <item>Sherpur</item>
+        <item>Tangai</item>
+        <item>Thakurgaon</item>
+    </string-array>
+
+</resources>

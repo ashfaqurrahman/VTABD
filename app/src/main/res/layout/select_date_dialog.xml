@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white">
+
+    <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
+        android:id="@+id/cdrvCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:calendar_tag="Test"
+        custom:disable_date_color="#ABABAB"
+        custom:editable="true"
+        custom:enable_time_selection="false"
+        custom:header_bg="@drawable/calendar_header"
+        custom:range_color="@color/range_bg_color_app"
+        custom:selected_date_circle_color="@color/colorPrimary"
+        custom:title_color="@color/black"
+        custom:week_offset="0">
+
+    </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/date_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:text="Oct 1 - Oct 8"/>
+
+        <TextView
+            android:id="@+id/no_of_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            tools:text="(8 nights)"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Select dates"
+        android:background="@color/gray"
+        android:padding="12dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

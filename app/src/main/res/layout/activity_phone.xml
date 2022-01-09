@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneActivity">
+
+    <RelativeLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_above="@+id/outlinedTextField"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cholo_ghuri"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50dp"
+                app:startIconDrawable="@drawable/ic_call"
+                android:hint="@string/phone"
+                app:hintTextColor="@color/half_black"
+                app:counterEnabled="true"
+                app:counterMaxLength="11"
+                app:boxStrokeErrorColor="@color/half_black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:textColor="@color/half_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_selector_white"
+            android:clickable="false"
+            android:padding="13dp"
+            android:text="@string/next"
+            android:textAlignment="center"
+            android:textColor="#CEDCDC"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

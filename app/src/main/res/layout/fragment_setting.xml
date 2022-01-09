@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/border"
+    tools:context=".fragment.SettingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/developers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Developers"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/about_this_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="15dp"
+                android:text="About this app"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/faq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="15dp"
+                android:text="FAQs"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="15dp"
+                android:text="Privacy Policy"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/terms_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="15dp"
+                android:text="Terms and Condition"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/log_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="15dp"
+                android:text="Logout"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableEndCompat="@drawable/ic_next" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:padding="15dp"
+                tools:text="Version: 1.0.0"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

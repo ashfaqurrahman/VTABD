@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/faq_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/faq_tv"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:justificationMode="inter_word"
+            android:text="1. Welcome\nWelcome to www.bkash.com. The following terms and conditions govern your (and any person or entity you enable/allow access through your access) access and use of this website (“Site”), the contents contained herein (“Contents”) and the services offered on the Site (“Services”).
+        \n\n2. Acceptance of terms
+        \n2.1 In order to browse, use and/or access the Site and/or the Services you are required to agree to, comply with and be bound by the following terms and conditions. You will be deemed to have accepted these terms and conditions by browsing, viewing, accessing and/or using the Site and/or the Services offered on the Site.
+        \n\n2.2 If you disagree with any part of these terms and conditions, please do not continue to browse, use and/or access the Site and/or the Services.
+        \n\n2.3 In addition to these, there may be additional terms and conditions which apply to individual Services which you will be deemed to have accepted if you register for such Service.
+
+        \n\n3. Registration and use of the Services and/or Site
+        \n3.1 In order to access/use or continue to access/use the Site and/or certain Services, you may be required to provide certain personal information. You agree to provide true, accurate, updated, and complete information when registering at the Site or for such Services.
+        \n\n3.2 You agree to access/use the Site and/or Services only for purposes that are expressly permitted by (i) these terms and conditions and (ii) any applicable law, regulation, guideline or instruction from bKash, the industry regulator or any other competent authority or any policy adopted by bKash with regard to the acceptable access/use of the Site and/or Services.
+        \n\n3.3 You agree that you are solely responsible and liable for (and that bKash has no responsibility to you or to any third party for) any breach of your obligations under these terms and/or conditions and for the consequences (including any loss or damage which bKash may suffer) for any such breach.
+
+        \n\n4. Prohibited use of the Site, Services and/or Contents
+        \n4.1 You specifically agree not to access/use (or attempt to access/use) any part of the Site and/or Services through any form of automated means (including use of scripts or web crawlers) and shall ensure that you comply with, in addition to these terms and conditions, instructions set out in relation to the access/use of any part of the Site and/or Services.
+        \n\n4.2 You agree that you will not engage in any form of activity that interferes with or disrupts any part of the Site and/or Services (or the servers and networks which are connected to the Site and/or Services).
+        \n\n4.3 You agree that you will not reproduce, duplicate, copy, sell, trade or resell any part of the Site and/or Services for any purpose. 4.4 You, and any person or entity you allow to access/use the Site and/or Services through your internet access/access to the Site and/or Services, are not allowed to:"/>
+
+    </ScrollView>
+
+</LinearLayout>

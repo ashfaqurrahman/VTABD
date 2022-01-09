@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2699FB</color>
+    <color name="colorPrimaryDark">#2699FB</color>
+    <color name="colorAccent">#2699FB</color>
+
+   <!-- <color name="purple_200">#2699FB</color>
+    <color name="purple_500">#2699FB</color>
+    <color name="purple_700">#2699FB</color>
+    <color name="teal_200">#2699FB</color>
+    <color name="teal_700">#2699FB</color>
+    <color name="transparent">#00000000</color>
+    <color name="card_background_color">#3b5998</color>-->
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="border">#F0F0F0</color>
+    <color name="black">#000000</color>
+    <color name="c_dark">#FF8A65</color>
+    <color name="bg_color">#D7EDFF</color>
+    <color name="edittext_border">#9D9D9D</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="background_Image_tint">#77002237</color>
+
+    <color name="color_gray_green">#375730</color>
+    <color name="background_green_image_tint">#613C5730</color>
+    <color name="color_transparent">#00FFFFFF</color>
+
+    <color name="calendar_header_title">#FFF</color>
+    <color name="selected_date_circle_color_app">#FF5252</color>
+    <color name="range_bg_color_app">#B5DBFB</color>
+    <color name="fab_colour">#ffff9900</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="gray">#C6C4C4</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="demo_dark_transparent">#24000000</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777777</color>
+    <color name="button_color">#CEDCDC</color>
+    <color name="activity_bg">#f3f7fe</color>
+
+    <color name="df_transparent_black_background">#80000000</color>
+
+</resources>

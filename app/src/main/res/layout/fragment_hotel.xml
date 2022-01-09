@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HotelFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/hotel_shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_repeat_mode="restart">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <include layout="@layout/hotel_holder_item" />
+
+            <include layout="@layout/hotel_holder_item" />
+
+            <include layout="@layout/hotel_holder_item" />
+
+            <include layout="@layout/hotel_holder_item" />
+
+            <include layout="@layout/hotel_holder_item" />
+
+            <include layout="@layout/hotel_holder_item" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hotel_list"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        tools:listitem="@layout/hotel_list_item"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

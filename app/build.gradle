@@ -1,0 +1,112 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.gsastc.vtabd"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    // firebase
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    implementation 'com.google.firebase:firebase-database:19.5.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.google.firebase:firebase-firestore:22.0.0'
+    implementation 'com.google.firebase:firebase-messaging:21.0.0'
+    // for firebaseRecyclerAdapter
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+    // circular imageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    // location
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    // otp
+    implementation 'com.github.aabhasr1:OtpView:v1.1.2-ktx'
+
+    implementation 'com.github.rajputkapil:textviewdotsanimation:v1.0'
+    // Image Cropper
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.6.0'
+    // Picasso Image viewer
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
+    // Circular progress bar
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    //DateRangeCalendarView
+    implementation 'com.archit.calendar:awesome-calendar:2.0.0'
+    implementation "androidx.core:core-ktx:1.3.2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //floating action button
+    implementation 'uk.co.markormesher:android-fab:2.5.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'org.sufficientlysecure:html-textview:4.0'
+
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.github.Monjur-Alam:Toaster-Library:-SNAPSHOT'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+
+    //Slider
+    implementation 'com.github.IslamKhSh:CardSlider:1.0.1'
+    //Favorite LikeButton
+    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+
+    //Rating
+    implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+    //slider
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+
+    def lottieVersion = "3.6.0"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //Drawer
+    implementation "com.mikepenz:materialdrawer:6.1.2"
+    implementation "com.mikepenz:aboutlibraries:6.2.3"
+    implementation('com.mikepenz:crossfadedrawerlayout:1.0.1@aar')
+    // Feedback
+    implementation 'com.webianks.library:easy-feedback:1.0.2'
+
+    //bottom nav
+    implementation 'com.aurelhubert:ahbottomnavigation:2.3.4'
+
+    //powerSpinner
+    implementation "com.github.skydoves:powerspinner:1.1.7"
+
+    //calender
+    implementation 'com.github.kizitonwose:CalendarView:1.0.0'
+}

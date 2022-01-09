@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_root_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/cart_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:text="Wish List"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="18sp"
+        android:padding="15dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/cart_toolbar"
+        android:id="@+id/empty_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/cart_empty"
+            android:layout_width="150dp"
+            app:lottie_fileName="empty_list.json"
+            android:layout_centerInParent="true"
+            android:layout_height="150dp"
+            android:foregroundGravity="center"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <TextView
+            android:layout_below="@+id/cart_empty"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/padding_10"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            android:elevation="2dp"
+            android:text="Wish List Empty"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
