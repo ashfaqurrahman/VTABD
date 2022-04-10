@@ -15,7 +15,7 @@ class DevelopersActivity : AppCompatActivity() {
         setSupportActionBar(mToolbar)
         Objects.requireNonNull(supportActionBar)?.setDisplayHomeAsUpEnabled(true)
         val toolbarTv = findViewById<TextView>(R.id.developer_tv)
-        toolbarTv.text = "Developers Option"
+        toolbarTv.text = "Developer Option"
 
 
     }

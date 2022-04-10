@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Monjur-Alam:Toaster-Library:-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1e5560681b9cd3ebecc43b4e13313ce/jetified-Toaster-Library--SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1e5560681b9cd3ebecc43b4e13313ce/jetified-Toaster-Library--SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1e5560681b9cd3ebecc43b4e13313ce/jetified-Toaster-Library--SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

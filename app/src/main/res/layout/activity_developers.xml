@@ -70,17 +70,17 @@
                 android:layout_marginEnd="@dimen/padding_10">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/jannati"
+                    android:id="@+id/ashfaq"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_centerVertical="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/jannati"
+                    android:src="@drawable/ashfaq"
                     app:civ_border_color="@color/colorPrimaryDark"
                     app:civ_border_width="2dp"/>
 
                 <LinearLayout
-                    android:layout_toEndOf="@+id/jannati"
+                    android:layout_toEndOf="@+id/ashfaq"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -93,154 +93,26 @@
                         android:textSize="16sp"
                         android:textColor="@color/red"
                         android:textStyle="bold"
-                        android:text="Name: Umme Kulsum Jannati"/>
+                        android:text="Name: Md. Ashfaqur Rahman"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:textSize="14sp"
-                        android:text="Student ID: 1620135"/>
+                        android:text="Student ID: 203-25-918"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:textSize="14sp"
-                        android:text="Degree: B.Sc in CSE"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:textIsSelectable="true"
-                        android:text="Institution: GOVT. SHAHID AKBOR ALI SCIENCE AND TECHNOLOGY COLLEGE"/>
-
-                </LinearLayout>
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="@dimen/padding_10"
-                android:layout_marginBottom="@dimen/padding_10"
-                android:layout_marginEnd="@dimen/padding_10">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/briten"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_centerVertical="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/briten"
-                    app:civ_border_color="@color/colorPrimaryDark"
-                    app:civ_border_width="2dp"/>
-
-                <LinearLayout
-                    android:layout_toEndOf="@+id/briten"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginStart="15dp"
-                    android:gravity="center">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:textSize="16sp"
-                        android:textColor="@color/red"
-                        android:textStyle="bold"
-                        android:text="Name: MD Mostafizur Rahman"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:text="Student ID: 1620111"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:text="Degree: B.Sc in CSE"/>
+                        android:text="Degree: M.Sc in CSE"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:textSize="14sp"
                         android:textIsSelectable="true"
-                        android:text="Institution: GOVT. SHAHID AKBOR ALI SCIENCE AND TECHNOLOGY COLLEGE"/>
-
-                </LinearLayout>
-
-            </RelativeLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="@dimen/padding_10"
-                android:layout_marginBottom="@dimen/padding_10"
-                android:layout_marginEnd="@dimen/padding_10">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/rakiba"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_centerVertical="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/rakiba"
-                    app:civ_border_color="@color/colorPrimaryDark"
-                    app:civ_border_width="2dp"/>
-
-                <LinearLayout
-                    android:layout_toEndOf="@+id/rakiba"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginStart="15dp"
-                    android:gravity="center">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:textSize="16sp"
-                        android:textColor="@color/red"
-                        android:textStyle="bold"
-                        android:text="Name: Rakiba Parvin"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:text="Student ID: 1620116"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:text="Degree: B.Sc in CSE"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:textSize="14sp"
-                        android:textIsSelectable="true"
-                        android:text="Institution: GOVT. SHAHID AKBOR ALI SCIENCE AND TECHNOLOGY COLLEGE"/>
+                        android:text="Institution: Daffodil International University"/>
 
                 </LinearLayout>
 
